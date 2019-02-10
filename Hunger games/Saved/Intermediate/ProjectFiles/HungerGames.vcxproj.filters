@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\HungerGames.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{C8C89CA0-A779-4B4F-8321-10D6F44B456D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HungerGames.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\HungerGamesEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{37C62D7A-D0D1-4080-AFD3-EBCD7896794A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\HungerGames">
+      <UniqueIdentifier>{F285252E-AF3A-4E23-9EF4-E90E5D6CE34C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HungerGames\HungerGames.Build.cs">
+      <Filter>Source\HungerGames</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\HungerGames\HungerGames.cpp">
+      <Filter>Source\HungerGames</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HungerGames\HungerGames.h">
+      <Filter>Source\HungerGames</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HungerGames\HungerGamesGameModeBase.cpp">
+      <Filter>Source\HungerGames</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HungerGames\HungerGamesGameModeBase.h">
+      <Filter>Source\HungerGames</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
